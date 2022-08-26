@@ -1,0 +1,480 @@
+html {
+    font-size: 6.25%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    font-weight: bold;
+    vertical-align: inherit;
+    text-align: internal center;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    word-break: keep-all;
+}
+
+.sub_main__visual {
+    background-image: url(../img/introduce/bg.png);
+}
+
+.page_wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#history {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 160rem;
+}
+
+.page_center {
+    width: 100%;
+    display: flex;
+    max-width: 1250rem;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+}
+
+.title_box {
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.title_box .left_box {
+    width: 40%;
+    height: auto;
+}
+
+.title_box .left_box p {
+    letter-spacing: 0.5em;
+    font-size: 26px;
+    line-height: 1.615;
+    color: #1778c7;
+    font-family: 'NanumGothicBold';
+    transition: all 0.6s;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.title_box .left_box h2 {
+    font-family: 'NanumGothicBold';
+    font-size: 46px;
+    word-break: keep-all;
+    line-height: 1.3;
+    transition: transform 0.6s, opacity 1s;
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.title_box .right_box {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_box .right_box p {
+    font-size: 20px;
+    word-break: keep-all;
+    line-height: 1.615;
+    transition:transform 0.6s, opacity 1s;
+    opacity: 0;
+    transform: translateY(30%);
+}
+
+.center_box {
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 160rem;
+    padding-top: 120rem;
+}
+
+.center_box > div:nth-child(1) {
+    width: 100%;
+}
+
+.center_box > div:nth-child(1) p {
+    font-size: 36px;
+    font-family: 'NanumGothicBold';
+    line-height: 1.615;
+    transition: all 0.6s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.center_box > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.center_box > div:nth-child(2) .card_1, .center_box > div:nth-child(2) .card_2, .center_box > div:nth-child(2) .card_3 {
+    width: 30%;
+    height: auto;
+    transition: transform 0.6s, opacity 1s;
+    transform: translateY(30%);
+    opacity: 0;
+}
+
+.center_box > div:nth-child(2) h2 {
+    color: #1c4ab4;
+    font-family: 'NanumGothicExtraBold';
+    font-size: 48px;
+    letter-spacing: 0.075em;
+}
+
+.center_box > div:nth-child(2) .txt01 {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'NanumGothic';
+}
+
+.center_box > div:nth-child(2) .txt02 {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'NanumGothic';
+    word-break: keep-all;
+}
+
+.center_box > div:nth-child(2) span {
+    color: #1778c7;
+    font-weight: bolder;
+}
+
+.bottom {
+    padding-top: 120rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.bottom::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1620rem;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    background: #f8f8f8;
+}
+
+.bottom .year {
+    position: relative;
+    z-index: 1;
+
+}
+
+.bottom .year::after {
+    content: '';
+    position: absolute;
+    left: 413rem;
+    width: 1rem;
+    top: 70rem;
+    height: 100%;
+    background-color: #ebebeb;
+    z-index: -1;
+}
+
+
+.bottom .year .yearBox {
+    display: flex;
+    align-items: center;
+    top: 120rem;
+    
+}
+
+.bottom .year .yearBox h1 {
+    font-size: 130rem;
+    width: 305rem;
+    transition: color 0.3s;
+    font-weight: bolder;
+    margin-top: 15rem;
+}
+
+.year .yearBox .line {
+    margin-left: 25rem;
+    width: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.year .yearBox .line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: calc(100% - 32rem);
+    height: 2px;
+    background-color: #202020;
+    transition: background 0.3s;
+}
+
+.year .yearBox .line svg {
+    width: 32rem;
+    stroke: #202020;
+    transition: stroke 0.3s;
+}
+
+.month {
+    width: 55%;
+
+}
+
+.month table {
+    padding-top: 170rem;
+    margin-top: 50rem;
+    font-size: 22rem;
+    line-height: 2;
+    transition: opacity .5s;
+}
+
+.month table:first-child {
+    padding-top: 44rem;
+    margin-top: 0;
+}
+
+
+
+.month table:last-child {
+    padding-bottom: 150rem;
+    padding-top: 254rem;
+}
+
+.month table tbody tr th {
+    width: 70rem;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.yearBox.on h1 {
+    color: #1c4ab4;
+}
+
+.yearBox.on .line::after {
+    background: #1c4ab4;
+}
+
+.yearBox.on .line svg {
+    stroke: #1c4ab4;
+}
+
+
+.sec0_bg_txt {
+    position: absolute;
+    z-index: -1;
+    top: 315px;
+}
+
+.sec0_bg_txt p {
+    color: #f2f2f2;
+    white-space: nowrap;
+    font-size: 410px;
+    line-height: 0;
+    font-family: 'NanumGothicExtraBold';
+    margin-left: 10%;
+}
+
+/* 페이지 레이아웃 반응형 시작 */
+
+@media only screen and (min-width:767px) and (max-width:1920px) {
+    .sec0_bg_txt {
+        top: 16.40625vw;
+        left: -1.92708vw;
+    }
+
+    .sec0_bg_txt p {
+        font-size: 21.35417vw;
+    }
+
+    .page_center {
+        padding: 0 30px;
+    }
+
+}
+
+@media only screen and (max-width:1160px) {
+    .center_box {
+        margin-top: 0;
+
+    }
+    .center_box > div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .center_box > div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .center_box > div:nth-child(2) .card_1, .center_box > div:nth-child(2) .card_2, .center_box > div:nth-child(2) .card_3 {
+        width: 100%;
+        padding: 5.3258987vw 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .bottom::after {
+        top: 2100rem;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    #history {
+        padding: 0;
+    }
+
+    .sec0_bg_txt {
+        top: 35.046373vw;
+        left: -2.33645vw;
+    }
+
+    .sec0_bg_txt p {
+        font-size: 23.36449vw;
+    }
+
+    .title_box {
+        padding: 33.326489vw 4.1526423vw;
+        padding-bottom: 0;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .center_box {
+        padding: 0 4.1526423vw;
+        padding-top: 12.52496879vw;
+    }
+
+    .title_box .left_box {
+        width: 100%;
+    }
+
+    .title_box .left_box p {
+        font-size: 6.123546vw;
+        line-height: 8.887961vw;
+    }
+
+    .title_box .left_box h2 {
+        font-size: 8.4457321vw;
+        line-height: 14.7865432vw;
+        padding: 8.1265413vw 0;
+        text-align: center;
+    }
+
+    .title_box .right_box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .center_box {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .center_box > div:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .bottom {
+        justify-content: flex-start;
+        position: relative;
+        padding: 0 4.1526423vw;
+        padding-top: 60rem;
+        flex-direction: column;
+    }
+
+    .bottom::after {
+        top: 0;
+    }
+
+    .bottom .year .yearBox {
+        width: 100%;
+        top: 60rem;
+        left: 4.1526423vw;
+        background: transparent;
+    }
+
+    .bottom .year .yearBox h1 {
+        font-size: 80rem;
+        width: 200rem;
+    }
+
+    .bottom .year::after {
+        width: 0;
+    }
+
+    .month {
+        width: 100%;
+    }
+
+    .month table:first-child {
+        padding-top: 180rem;
+    }
+    .month table {
+        font-size: 16rem;
+        padding-top: -70rem;
+        width: 100%;
+    }
+
+}

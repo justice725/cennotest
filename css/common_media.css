@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media (max-width: 879px) {
+
+    /* 헤더 */
+    #hd,
+    #hd.drop {
+        height: 75px;
+    }
+
+    .manu {
+        display: none;
+    }
+
+    #nav {
+        padding: 0 25px;
+    }
+
+    .hd_logo a {
+        width: 100px;
+        height: 30px;
+        background-size: 100% auto;
+    }
+
+    /* 푸터 */
+    .ft_top {
+        padding: 15px 5%;
+    }
+
+    .ft_bottom {
+        width: 100%;
+    }
+
+    .ft_top__in {
+        flex-wrap: wrap;
+    }
+
+    .ft_menu {
+        width: 100%;
+        padding: 15px 0px;
+        padding-top: 0;
+    }
+
+    .ft_sns {
+        margin: 15px auto;
+    }
+
+    .ft_bottom {
+        flex-wrap: wrap;
+    }
+
+    .ft_text {
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .ft_bottom__left,
+    .ft_bottom__right {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .ft_bottom__left .logo {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .ft_bottom__left .logo img {
+        display: block;
+
+    }
+
+    .ft_bottom__right {
+        border: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 25px;
+
+        padding-top: 20px;
+    }
+
+    .ft_right__tit span {
+        margin-bottom: 20px;
+        letter-spacing: -1px;
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .ft_txt3 .mobile {
+        display: block;
+    }
+}
+
+/* 테블릿 큰사이즈 */
+@media (min-width: 880px) and (max-width: 1199px) {
+
+    .manu {
+        display: none;
+    }
+
+    #nav {
+        padding: 0 50px;
+    }
+
+    /* 푸터 */
+    .ft_top {
+        padding: 15px 5%;
+    }
+
+    .ft_bottom {
+        width: 90%;
+    }
+}
+
+/* 노트북 작은 사이즈 */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .manu {
+        display: none;
+    }
+
+    #nav {
+        padding: 0 50px;
+    }
+
+}
+
+/* 노트북 */
+@media (min-width: 1400px) and (max-width: 1600px) {}

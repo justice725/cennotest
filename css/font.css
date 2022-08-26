@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+/* 노토폰트*/
+@font-face {
+    font-family: 'NotoSansKR-m';
+    src: url('../font/NotoSansKR-Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansKR-r';
+    src: url('../font/NotoSansKR-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansKR-Thin';
+    src: url('../font/NotoSansKR-Thin.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 나눔 스퀘어 */
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../font/NanumGothic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumGothicBold';
+    src: url('../font/NanumGothicBold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumGothicExtraBold';
+    src: url('../font/NanumGothicExtraBold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumGothicLight';
+    src: url('../font/NanumGothicLight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 이사만루 */
+@font-face {
+    font-family: 'esamanruBold';
+    src: url('../font/esamanruBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'esamanruLight';
+    src: url('../font/esamanruLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'esamanruMedium';
+    src: url('../font/esamanruMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 지마켓 */
+@font-face {
+    font-family: 'GmarketSansTTFBold';
+    src: url('../font/GmarketSansTTFBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansTTFLight';
+    src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansTTFMedium';
+    src: url('../font/GmarketSansTTFMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
